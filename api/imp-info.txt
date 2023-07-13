@@ -1,0 +1,3 @@
+use command npm run server to run only backend in /api directory
+use command npm run client to run only frontend in /client directory
+use command npm run dev to run both backend and frontend in / directory
