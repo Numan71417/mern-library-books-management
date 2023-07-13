@@ -1,0 +1,5 @@
+Api end points 
+-> for users /api/v1/users
+-> for books /api/v1/books
+
+bookdata -> collection name
