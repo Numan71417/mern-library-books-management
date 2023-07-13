@@ -1,1 +1,1 @@
-create react app karde
+create react app karle
