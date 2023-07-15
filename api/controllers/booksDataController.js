@@ -25,10 +25,10 @@ const getBook= async (req, res)=>{
 //post a book || create a book
 const createBook= async (req, res)=>{
     
-    const {serialno, name, author, dateOfIssue, dateOfReturn} = req.body;
+    const {serialno, name, author} = req.body;
     //adding document to db
     try {
-       const bookdata = await book.create({serialno, name, author, dateOfIssue, dateOfReturn});
+       const bookdata = await book.create({serialno, name, author});
        res.status(200).json(bookdata)
 
     }catch (error) {

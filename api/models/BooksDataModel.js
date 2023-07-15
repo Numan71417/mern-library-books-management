@@ -15,17 +15,9 @@ const bookSchema = new schema({
 
     author : {
         type : String,
-    },
-
-    dateOfIssue : {
-        type : String,
-        required : [true , "required"]
-    },
-
-    dateOfReturn : {
-        type : String,
-        required : [true , "required"]
     }
+
+    
 
 }, {timestamps : true} )
 
